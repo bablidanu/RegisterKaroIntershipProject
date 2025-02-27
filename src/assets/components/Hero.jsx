@@ -13,7 +13,11 @@ export const Hero = () => {
         <div className="h-auto md:h-[585px] ml-0 md:ml-10 flex-1">
           <h3 className="flex items-center mb-3">
             Google Rating
-            <Star size={5} />
+            <Star size={15} />
+            <Star size={15} />
+            <Star size={15} />
+            <Star size={15} />
+            <Star size={15} />
           </h3>
           <h1 className="text-3xl md:text-5xl font-semibold">
             Your trusted partner
@@ -68,9 +72,10 @@ export const Hero = () => {
         </div>
       </div>
       <svg
-        width="1440"
-        height="236"
-        viewBox="0 0 1440 236"
+        width="100%" // Set width to 100%
+        height="auto" // Set height to auto
+        viewBox="0 0 1440 236" // Ensure viewBox is set
+        preserveAspectRatio="xMinYMin meet" // Maintain aspect ratio
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
