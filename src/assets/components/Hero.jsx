@@ -54,7 +54,7 @@ export const Hero = () => {
             </div>
           </div>
           <div className="mt-10 flex gap-7 items-center">
-            <button className="bg-blue-900 text-white p-3 rounded-sm">
+            <button className="bg-blue-900 hover:bg-blue-800 cursor-pointer text-white p-3 rounded-sm">
               Talk an Expert
             </button>
             <div className="flex items-center mt-4">

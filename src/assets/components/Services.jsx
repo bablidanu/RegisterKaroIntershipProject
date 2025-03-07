@@ -12,7 +12,7 @@ const Services = () => {
       <h2 className="text-yellow-500">WELCOME TO REGISTERKARO.IN</h2>
       <h1 className="text-3xl mt-2 font-bold">Explore Our Services</h1>
       <div className="flex flex-col md:flex-row gap-7 mt-8 flex-wrap justify-center">
-        <div className="flex flex-col justify-center items-center border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
+        <div className="flex flex-col justify-center items-center border-zinc-400 border-2 transition-transform transform hover:scale-105 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
           <IoIosSettings className="text-yellow-600 text-5xl" />
           <h2 className="text-black font-medium text-2xl m-4">
             Company Formation
@@ -21,11 +21,11 @@ const Services = () => {
             Build web-based solutions that enhance customer experience.
           </p>
           <div className="flex gap-5 items-center mt-6">
-            <p className="font-medium">Learn more</p>
+            <p className="font-medium hover:text-amber-600">Learn more</p>
             <FaArrowCircleRight />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
+        <div className="flex flex-col justify-center items-center transition-transform transform hover:scale-105 border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
           <MdOutlineScreenSearchDesktop className="text-yellow-600 text-5xl" />
           <h2 className="text-black font-medium text-2xl m-4">
             Company Secretarial Services
@@ -35,11 +35,11 @@ const Services = () => {
             goals.
           </p>
           <div className="flex gap-5 items-center mt-6">
-            <p className="font-medium">Learn more</p>
+            <p className="font-medium hover:text-amber-600">Learn more</p>
             <FaArrowCircleRight />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
+        <div className="flex flex-col justify-center transition-transform transform hover:scale-105 items-center border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
           <FaPeopleLine className="text-yellow-600 text-5xl" />
           <h2 className="text-black font-medium text-2xl m-4">
             Virtual Office Address
@@ -48,11 +48,11 @@ const Services = () => {
             Foster customer relationships by effectively serving your market.
           </p>
           <div className="flex gap-5 items-center mt-6">
-            <p className="font-medium">Learn more</p>
+            <p className="font-medium hover:text-amber-600">Learn more</p>
             <FaArrowCircleRight />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
+        <div className="flex flex-col justify-center items-center transition-transform transform hover:scale-105 border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
           <LiaBoxesSolid className="text-yellow-600 text-5xl" />
           <h2 className="text-black font-medium text-2xl m-4">
             Annual Compliance Services
@@ -61,11 +61,11 @@ const Services = () => {
             Turn your ideas into modern products with our design experts.
           </p>
           <div className="flex gap-5 items-center mt-6">
-            <p className="font-medium">Learn more</p>
+            <p className="font-medium hover:text-amber-600">Learn more</p>
             <FaArrowCircleRight />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
+        <div className="flex flex-col justify-center items-center transition-transform transform hover:scale-105 border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
           <AiOutlineGlobal className="text-yellow-600 text-5xl" />
           <h2 className="text-black font-medium text-2xl m-4">
             Payroll Services
@@ -74,11 +74,11 @@ const Services = () => {
             Expand your business across the globe with minimal efforts.
           </p>
           <div className="flex gap-5 items-center mt-6">
-            <p className="font-medium">Learn more</p>
+            <p className="font-medium hover:text-amber-600">Learn more</p>
             <FaArrowCircleRight />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
+        <div className="flex flex-col justify-center items-center transition-transform transform hover:scale-105 border-zinc-400 border-2 p-4 rounded-md shadow-gray-200 w-full md:w-1/3 lg:w-1/4">
           <GrAnnounce className="text-yellow-600 text-5xl" />
           <h2 className="text-black font-medium text-2xl m-4">
             Bookkeeping Services
@@ -88,12 +88,12 @@ const Services = () => {
             technology.
           </p>
           <div className="flex gap-5 items-center mt-6">
-            <p className="font-medium">Learn more</p>
+            <p className="font-medium hover:text-amber-600">Learn more</p>
             <FaArrowCircleRight />
           </div>
         </div>
       </div>
-      <button className="bg-blue-500 rounded-md p-2 text-white mt-6">
+      <button className="bg-blue-500 rounded-md p-2 text-white mt-6 hover:bg-blue-400 cursor-pointer">
         See All Services
       </button>
     </div>

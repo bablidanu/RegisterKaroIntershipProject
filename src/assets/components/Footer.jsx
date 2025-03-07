@@ -1,5 +1,6 @@
 import { FaFacebook, FaGoogle, FaApple, FaInstagram } from "react-icons/fa";
 import { IoIosCheckmark } from "react-icons/io";
+import { FaArrowCircleUp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -138,62 +139,67 @@ const Footer = () => {
           </defs>
         </svg>
       </div>
-      <div className="bg-blue-700 p-6 text-white flex flex-col md:flex-row gap-10">
-        <div className="flex-1">
-          <p>
-            Design outstanding interfaces with advanced Figma features in a
-            matter of minutes.
-          </p>
-          <div className="text-2xl text-white flex gap-3 mt-6">
-            <FaFacebook />
-            <FaGoogle />
-            <FaApple />
-            <FaInstagram />
+      <div className="bg-blue-700 p-6">
+        <div className=" text-white flex flex-col md:flex-row gap-10">
+          <div className="flex-1">
+            <p>
+              Design outstanding interfaces with advanced Figma features in a
+              matter of minutes.
+            </p>
+            <div className="text-2xl text-white flex gap-3 mt-6">
+              <FaFacebook className="hover:text-amber-400" />
+              <FaGoogle className="hover:text-amber-400" />
+              <FaApple className="hover:text-amber-400" />
+              <FaInstagram className="hover:text-amber-400" />
+            </div>
+          </div>
+          <div className="flex-1">
+            <div className="text-yellow-600 text-xl font-semibold">
+              START A BUSINESS
+            </div>
+            <ul className="list-none mt-4">
+              <li className="hover:underline">Features</li>
+              <li className="hover:underline">Solutions</li>
+              <li className="hover:underline">Integration</li>
+              <li className="hover:underline">Enterprise</li>
+            </ul>
+          </div>
+          <div className="flex-1">
+            <div className="text-yellow-600 text-xl font-semibold">
+              GOVERNMENT REGISTRATION
+            </div>
+            <ul className="list-none mt-4">
+              <li className="hover:underline">Partners</li>
+              <li className="hover:underline">Community</li>
+              <li className="hover:underline">Developers</li>
+              <li className="hover:underline">App</li>
+            </ul>
+          </div>
+          <div className="flex-1">
+            <div className="text-yellow-600 text-xl font-semibold">
+              COMPLIANCE & TAX
+            </div>
+            <ul className="list-none mt-4">
+              <li className="hover:underline">Channels</li>
+              <li className="hover:underline">Scale</li>
+              <li className="hover:underline">Watch the Demo</li>
+              <li className="hover:underline">Our Competition</li>
+            </ul>
+          </div>
+          <div className="flex-1">
+            <div className="text-yellow-600 text-xl font-semibold">
+              BIS & CDSCO
+            </div>
+            <ul className="list-none mt-4">
+              <li className="hover:underline">About Us</li>
+              <li className="hover:underline">News</li>
+              <li className="hover:underline">Leadership</li>
+              <li className="hover:underline">Media Kit</li>
+            </ul>
           </div>
         </div>
-        <div className="flex-1">
-          <div className="text-yellow-600 text-xl font-semibold">
-            START A BUSINESS
-          </div>
-          <ul className="list-none mt-4">
-            <li>Features</li>
-            <li>Solutions</li>
-            <li>Integration</li>
-            <li>Enterprise</li>
-          </ul>
-        </div>
-        <div className="flex-1">
-          <div className="text-yellow-600 text-xl font-semibold">
-            GOVERNMENT REGISTRATION
-          </div>
-          <ul className="list-none mt-4">
-            <li>Partners</li>
-            <li>Community</li>
-            <li>Developers</li>
-            <li>App</li>
-          </ul>
-        </div>
-        <div className="flex-1">
-          <div className="text-yellow-600 text-xl font-semibold">
-            COMPLIANCE & TAX
-          </div>
-          <ul className="list-none mt-4">
-            <li>Channels</li>
-            <li>Scale</li>
-            <li>Watch the Demo</li>
-            <li>Our Competition</li>
-          </ul>
-        </div>
-        <div className="flex-1">
-          <div className="text-yellow-600 text-xl font-semibold">
-            BIS & CDSCO
-          </div>
-          <ul className="list-none mt-4">
-            <li>About Us</li>
-            <li>News</li>
-            <li>Leadership</li>
-            <li>Media Kit</li>
-          </ul>
+        <div className="text-center mt-10 text-white ">
+          <p> @ 2024 Registerkaro. All Rights Reserved.</p>
         </div>
       </div>
     </div>
